@@ -1,4 +1,5 @@
 import PostCard from "@/components/common/PostCard";
+import Footer from "@/components/layout/Footer";
 import Header from "@/components/layout/Header";
 import { PostProps } from "@/interfaces";
 
@@ -24,6 +25,7 @@ const Posts: React.FC<PostsPageProps> = ({ posts }) => {
           }
         </div>
       </main>
+      <Footer/>
     </div>
   )
 }

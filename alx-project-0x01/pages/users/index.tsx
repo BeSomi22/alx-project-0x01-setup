@@ -2,6 +2,7 @@ import React from "react";
 import UserCard from "@/components/common/UserCard";
 import { UserProps } from "@/interfaces";
 import Header from "@/components/layout/Header";
+import Footer from "@/components/layout/Footer";
 
 interface UsersPageProps {
     posts: UserProps[];
@@ -19,6 +20,7 @@ const Users: React.FC<UsersPageProps> = ({ posts }) => {
           ))}
         </div>
       </main>
+      <Footer/>
     </div>
   );
 };
